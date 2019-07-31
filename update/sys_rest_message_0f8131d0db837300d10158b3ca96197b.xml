@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
+    <sys_rest_message action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <authentication_type>no_authentication</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <description>Information about IP addresses&#13;
+&#13;
+https://ipinfo.io/${ipaddress}/${specific_field} --&gt; returns specific field&#13;
+&#13;
+https://ipinfo.io/${ipaddress}/json --&gt; returns all records&#13;
+&#13;
+{&#13;
+  "ip": "165.235.122.147",&#13;
+  "city": "West Sacramento",&#13;
+  "region": "California",&#13;
+  "country": "US",&#13;
+  "loc": "38.5805,-121.5300",&#13;
+  "hostname": "dgszig147.dgs.ca.gov",&#13;
+  "postal": "95798",&#13;
+  "phone": "916",&#13;
+  "org": "AS1226 California Technology Agency"&#13;
+}</description>
+        <name>IPInfo</name>
+        <oauth2_profile/>
+        <protocol_name/>
+        <rest_endpoint>https://ipinfo.io/</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-30 20:50:57</sys_created_on>
+        <sys_id>0f8131d0db837300d10158b3ca96197b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>IPInfo</sys_name>
+        <sys_package display_value="IPLookup" source="x_81147_iplookup">db61f990db837300d10158b3ca9619c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IPLookup">db61f990db837300d10158b3ca9619c6</sys_scope>
+        <sys_update_name>sys_rest_message_0f8131d0db837300d10158b3ca96197b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-30 22:24:59</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
+</record_update>
